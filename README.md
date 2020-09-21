@@ -34,7 +34,7 @@
 - SMCHelper
 
 # Required kexts
-- Lilu : https://github.com/acidanthera/Lilu/releases/tag/1.4.6
+- Lilu : https://github.com/acidanthera/Lilu/releases
 - WhateverGreen : https://github.com/acidanthera/WhateverGreen/releases
 - VirtualSMC : https://github.com/acidanthera/VirtualSMC/releases
   - SMCBatteryManager
@@ -44,11 +44,11 @@
 - AppleALC (layout 22) : https://github.com/acidanthera/AppleALC/releases
 - NVMeFix : https://github.com/acidanthera/NVMeFix/releases
 - NoTouchID : https://github.com/al3xtjames/NoTouchID/releases
-- USBPorts.kext or USBInjectAll : https://bitbucket.org/RehabMan/os-x-usb-inject-all/downloads/
+- USBPorts.kext or USBInjectAll : https://bitbucket.org/RehabMan/os-x-usb-inject-all/downloads
 - Voodool2C : https://github.com/VoodooI2C/VoodooI2C/releases
   - Voodool2CHID
 - VoodooPS2Controller : https://github.com/acidanthera/VoodooPS2/releases
-- itlwm : https://github.com/OpenIntelWireless/itlwm/releases/
+- itlwm : https://github.com/OpenIntelWireless/itlwm/releases
 - IntelBluetoothFirmware : https://github.com/OpenIntelWireless/IntelBluetoothFirmware/releases
   - IntelBluetoothInjector
 
