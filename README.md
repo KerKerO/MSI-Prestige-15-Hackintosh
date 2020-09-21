@@ -22,7 +22,7 @@
 <img src="https://github.com/KerKerOgh/MSI-Prestige-15-Hackintosh/blob/master/Screenshot.png/">
 
 # ACPI Tables
-- In repository
+- [In repository](https://github.com/KerKerOgh/MSI-Prestige-15-Hackintosh/tree/master/ACPI/patched)
 
 # Required efi drivers
 - APFSDriverLoader
