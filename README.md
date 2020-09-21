@@ -44,7 +44,7 @@
 - AppleALC (layout 22) : https://github.com/acidanthera/AppleALC/releases
 - NVMeFix : https://github.com/acidanthera/NVMeFix/releases
 - NoTouchID : https://github.com/al3xtjames/NoTouchID/releases
-- USBPorts.kext or USBInjectAll : https://bitbucket.org/RehabMan/os-x-usb-inject-all/downloads
+- USBPorts.kext from repository (or USBInjectAll : https://bitbucket.org/RehabMan/os-x-usb-inject-all/downloads)
 - Voodool2C : https://github.com/VoodooI2C/VoodooI2C/releases
   - Voodool2CHID
 - VoodooPS2Controller : https://github.com/acidanthera/VoodooPS2/releases
