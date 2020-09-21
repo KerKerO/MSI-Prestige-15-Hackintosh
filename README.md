@@ -17,7 +17,7 @@
 - Clover: v5122
 - MacOS: Catalina 10.15.6
 - SMBIOS: MacBook Pro 15.4
-- Boot-args: darkwake=0 slide=0 (config.plist in repository)
+- Boot-args: darkwake=0 slide=0 (config.plist [from repository](https://github.com/KerKerOgh/MSI-Prestige-15-Hackintosh/blob/master/Configs/config.plist))
 
 # ACPI Tables
 - In repository
@@ -30,7 +30,7 @@
 - HFSPlus
 - OcQuirks **(included in Clover is broken! Need to download separately)** : https://github.com/ReddestDream/OcQuirks/releases
   - OpenRuntime **(included in Clover is broken!)**
-  + OcQuirks.plist from repository
+  + OcQuirks.plist [from repository](https://github.com/KerKerOgh/MSI-Prestige-15-Hackintosh/blob/master/Configs/OcQuirks.plist)
 - SMCHelper
 
 # Required kexts
@@ -44,7 +44,7 @@
 - AppleALC (layout 22) : https://github.com/acidanthera/AppleALC/releases
 - NVMeFix : https://github.com/acidanthera/NVMeFix/releases
 - NoTouchID : https://github.com/al3xtjames/NoTouchID/releases
-- USBPorts.kext from repository (or USBInjectAll : https://bitbucket.org/RehabMan/os-x-usb-inject-all/downloads)
+- USBPorts.kext [from repository](https://github.com/KerKerOgh/MSI-Prestige-15-Hackintosh/tree/master/Kexts) (or USBInjectAll : https://bitbucket.org/RehabMan/os-x-usb-inject-all/downloads)
 - Voodool2C : https://github.com/VoodooI2C/VoodooI2C/releases
   - Voodool2CHID
 - VoodooPS2Controller : https://github.com/acidanthera/VoodooPS2/releases
