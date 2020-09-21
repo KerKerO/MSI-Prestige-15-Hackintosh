@@ -19,6 +19,8 @@
 - SMBIOS: MacBook Pro 15.4
 - Boot-args: darkwake=0 slide=0 (config.plist [from repository](https://github.com/KerKerOgh/MSI-Prestige-15-Hackintosh/blob/master/Configs/config.plist))
 
+<img src="https://github.com/KerKerOgh/MSI-Prestige-15-Hackintosh/blob/master/Screenshot.png/">
+
 # ACPI Tables
 - In repository
 
