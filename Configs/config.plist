@@ -48,7 +48,7 @@
 		<key>CustomLogo</key>
 		<string>Apple</string>
 		<key>Arguments</key>
-		<string>darkwake=0 slide=0</string>
+		<string>slide=0</string>
 		<key>XMPDetection</key>
 		<string>Yes</string>
 	</dict>
@@ -70,6 +70,8 @@
 	<dict>
 		<key>FrequencyMHz</key>
 		<integer>1600</integer>
+		<key>HWPEnable</key>
+		<true/>
 	</dict>
 	<key>Devices</key>
 	<dict>

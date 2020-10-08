@@ -15,9 +15,9 @@
 
 # Bootloader / OS
 - Clover: v5122
-- MacOS: Catalina 10.15.6
+- MacOS: Catalina 10.15.7
 - SMBIOS: MacBook Pro 15.4
-- Boot-args: darkwake=0 slide=0 (config.plist [from repository](https://github.com/KerKerOgh/MSI-Prestige-15-Hackintosh/blob/master/Configs/config.plist))
+- Boot-args: slide=0 (config.plist [from repository](https://github.com/KerKerOgh/MSI-Prestige-15-Hackintosh/blob/master/Configs/config.plist))
 
 <img src="https://github.com/KerKerOgh/MSI-Prestige-15-Hackintosh/blob/master/Screenshot.png/">
 
@@ -53,6 +53,8 @@
 - itlwm : https://github.com/OpenIntelWireless/itlwm/releases
 - IntelBluetoothFirmware : https://github.com/OpenIntelWireless/IntelBluetoothFirmware/releases
   - IntelBluetoothInjector
+- CPUFriend : https://github.com/acidanthera/CPUFriend/releases
+  - CPUFriendDataProvider [from repository](https://github.com/KerKerOgh/MSI-Prestige-15-Hackintosh/tree/master/Kexts) 
 
 # Installation
 - Make bootable USB Drive with Clover \- https://github.com/CloverHackyColor/CloverBootloader/releases
@@ -78,7 +80,7 @@
 - Configure your SMBIOS \- https://www.tonymacx86.com/threads/guide-how-to-configure-your-systems-smbios-correctly.198155/
 
 # Working
-- CPU
+- CPU (800 MHz - 4.20 GHz | 35W | Speed Shift)
 - IGPU Intel UHD 620
 - WI-FI (HeliPort)
 - Bluetooth
