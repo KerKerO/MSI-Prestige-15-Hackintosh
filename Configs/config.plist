@@ -48,7 +48,7 @@
 		<key>CustomLogo</key>
 		<string>Apple</string>
 		<key>Arguments</key>
-		<string>slide=0</string>
+		<string>slide=0 darkwake=0</string>
 		<key>XMPDetection</key>
 		<string>Yes</string>
 	</dict>

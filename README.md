@@ -17,7 +17,7 @@
 - Clover: v5122
 - MacOS: Catalina 10.15.7
 - SMBIOS: MacBook Pro 15.4
-- Boot-args: slide=0 (config.plist [from repository](https://github.com/KerKerOgh/MSI-Prestige-15-Hackintosh/blob/master/Configs/config.plist))
+- Config: [In repository](https://github.com/KerKerOgh/MSI-Prestige-15-Hackintosh/blob/master/Configs/config.plist)
 
 <img src="https://github.com/KerKerOgh/MSI-Prestige-15-Hackintosh/blob/master/Screenshot.png/">
 
