@@ -33,7 +33,6 @@
 - OcQuirks **(included in Clover is broken! Need to download separately)** : https://github.com/ReddestDream/OcQuirks/releases
   - OpenRuntime **(included in Clover is broken!)**
   + OcQuirks.plist [from repository](https://github.com/KerKerOgh/MSI-Prestige-15-Hackintosh/blob/master/Configs/OcQuirks.plist)
-- SMCHelper
 
 # Required kexts
 - Lilu : https://github.com/acidanthera/Lilu/releases
