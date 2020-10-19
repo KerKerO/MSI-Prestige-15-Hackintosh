@@ -70,9 +70,10 @@
 
 # Pre-Install
 - Make bootable USB Drive with 
-  - Clover v5122 \- https://github.com/CloverHackyColor/CloverBootloader/releases
-or
-  - OpenCore v0.6.2 \- https://github.com/acidanthera/OpenCorePkg/releases
+    - OpenCore v0.6.2 \- https://github.com/acidanthera/OpenCorePkg/releases
+    or
+    - Clover v5122 \- https://github.com/CloverHackyColor/CloverBootloader/releases
+  
 
 * Installation requires an internet connection, you have two options:
   * 1. Use usb WI-FI dongle OR usb ethernet adapter
