@@ -42,7 +42,7 @@
   - HFSPlus
   - OcQuirks **(included in Clover is broken! Need to download separately)** : https://github.com/ReddestDream/OcQuirks/releases
     - OpenRuntime **(included in Clover is broken!)**
-    + OcQuirks.plist [from repository](https://github.com/KerKerOgh/MSI-Prestige-15-Hackintosh/blob/master/Clover/Configs/OcQuirks.plist)
+    - OcQuirks.plist [from repository](https://github.com/KerKerOgh/MSI-Prestige-15-Hackintosh/blob/master/Clover/Configs/OcQuirks.plist)
 
 # ACPI Tables
 - [In repository](https://github.com/KerKerOgh/MSI-Prestige-15-Hackintosh/tree/master/ACPI/patched)
@@ -70,18 +70,18 @@
 
 # Pre-Install
 - Make bootable USB Drive with 
-    - OpenCore v0.6.2 \- https://github.com/acidanthera/OpenCorePkg/releases
-    or
-    - Clover v5122 \- https://github.com/CloverHackyColor/CloverBootloader/releases
+  - OpenCore v0.6.2 \- https://github.com/acidanthera/OpenCorePkg/releases
+  - or
+  - Clover v5122 \- https://github.com/CloverHackyColor/CloverBootloader/releases
   
-* Installation requires an internet connection, you have two options:
-  * 1. Use usb WI-FI dongle OR usb ethernet adapter
-  * 2. Fill your WI-FI SSID and password in itlwm.kext/Contents/Info.plist "WiFiConfig" section
+- Installation requires an internet connection, you have two options:
+  - 1. Use usb WI-FI dongle OR usb ethernet adapter
+  - 2. Fill your WI-FI SSID and password in itlwm.kext/Contents/Info.plist "WiFiConfig" section
 
-* In BIOS
-  * Turn off Secure Boot
-  * Press L-ALT + R-CTRL + R-SHIFT + F2 or (fn + F2) for see hidden feature
-  * Go to Advanced->Power & Performance->CPU - Power Management Control->CPU lock Configuration->CFG lock = **Disabled**
+- In BIOS
+  - Turn off Secure Boot
+  - Press L-ALT + R-CTRL + R-SHIFT + F2 or (fn + F2) for see hidden feature
+  - Go to Advanced->Power & Performance->CPU - Power Management Control->CPU lock Configuration->CFG lock = **Disabled**
 
 # Installation
 - Install
@@ -89,13 +89,13 @@
 # Post-Install
 - Disable Force Click in trackpad settings for normal left click
 - Swap keys: Command -> Option and Option -> Command in keyboard settings
-* In Terminal
-  * sudo pmset powernap 0
-  * sudo pmset proximitywake 0
+- In Terminal
+  - sudo pmset powernap 0
+  - sudo pmset proximitywake 0
 - Install HeliPort.app to work with internal Wi-Fi \- https://github.com/OpenIntelWireless/HeliPort/releases
 - Configure your SMBIOS:
-    - OpenCore: -\ https://dortania.github.io/OpenCore-Install-Guide/config-laptop.plist/coffee-lake-plus.html#platforminfo
-    - Clover: \- https://www.tonymacx86.com/threads/guide-how-to-configure-your-systems-smbios-correctly.198155/
+    - OpenCore: https://dortania.github.io/OpenCore-Install-Guide/config-laptop.plist/coffee-lake-plus.html#platforminfo
+    - Clover: https://www.tonymacx86.com/threads/guide-how-to-configure-your-systems-smbios-correctly.198155/
 
 # Working
 - CPU (800 MHz - 4.20 GHz | 35W | Speed Shift)
@@ -104,15 +104,15 @@
 - Bluetooth
 - Keyboard (backlight, volume +/-/mute, brightness +/-)
 - Trackpad (gestures, prtscr - on/off)
-* Audio (AppleALC layout=22)
-  * Stereo microphones [**(Bug 1)**](#Bugs)
-  * Audio speakers
-  * Combined audio jack (Audio+Mic)
+- Audio (AppleALC layout=22)
+  - Stereo microphones [**(Bug 1)**](#Bugs)
+  - Audio speakers
+  - Combined audio jack (Audio+Mic)
 - Screen brightness
 - Sleep (hibernatemode 3)
-* USB 3.2 XHCI Host Controller 
-  * Left side 2x USB3.2 Type-C Gen1
-  * Right side 2x USB3.2 Gen1
+- USB 3.2 XHCI Host Controller 
+  - Left side 2x USB3.2 Type-C Gen1
+  - Right side 2x USB3.2 Gen1
 - WebCamera
 - Battery indication
 - HDMI (Video+Audio) [**(Bug 2)**](#Bugs)
