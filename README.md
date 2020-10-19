@@ -13,10 +13,9 @@
 |Audio     | Realtek ACL298|
 |Wireless  | Intel AX201|
 
-<img src="https://github.com/KerKerOgh/MSI-Prestige-15-Hackintosh/blob/master/Screenshot.png/">
-
 # Bootloaders / OS
 **-----OpenCore-----**
+- <img src="https://github.com/KerKerOgh/MSI-Prestige-15-Hackintosh/blob/master/Screenshot2.png/" width=512>
 - OpenCore: v0.6.2
 - MacOS: Catalina 10.15.7 / BigSur 11.0
 - SMBIOS: MacBook Pro 15.4
@@ -29,6 +28,7 @@
   - OpenRuntime
 
 **------Clover------**
+- <img src="https://github.com/KerKerOgh/MSI-Prestige-15-Hackintosh/blob/master/Screenshot.png/" width=512>
 - Clover: v5122
 - MacOS: Catalina 10.15.7
 - SMBIOS: MacBook Pro 15.4
