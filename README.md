@@ -13,26 +13,39 @@
 |Audio     | Realtek ACL298|
 |Wireless  | Intel AX201|
 
-# Bootloader / OS
+<img src="https://github.com/KerKerOgh/MSI-Prestige-15-Hackintosh/blob/master/Screenshot.png/">
+
+# Bootloaders / OS
+**-----OpenCore-----**
+- OpenCore: v0.6.2
+- MacOS: Catalina 10.15.7 / BigSur 11.0
+- SMBIOS: MacBook Pro 15.4
+- Config: [In repository](https://github.com/KerKerOgh/MSI-Prestige-15-Hackintosh/blob/master/OpenCore/config.plist)
+
+- Required efi drivers
+  - AudioDxe
+  - HFSPlus
+  - OpenCanopy
+  - OpenRuntime
+
+**------Clover------**
 - Clover: v5122
 - MacOS: Catalina 10.15.7
 - SMBIOS: MacBook Pro 15.4
-- Config: [In repository](https://github.com/KerKerOgh/MSI-Prestige-15-Hackintosh/blob/master/Configs/config.plist)
+- Config: [In repository](https://github.com/KerKerOgh/MSI-Prestige-15-Hackintosh/blob/master/Clover/Configs/config.plist)
 
-<img src="https://github.com/KerKerOgh/MSI-Prestige-15-Hackintosh/blob/master/Screenshot.png/">
+- Required efi drivers
+  - APFSDriverLoader
+  - AudioDxe
+  - DataHubDxe
+  - FSInject
+  - HFSPlus
+  - OcQuirks **(included in Clover is broken! Need to download separately)** : https://github.com/ReddestDream/OcQuirks/releases
+    - OpenRuntime **(included in Clover is broken!)**
+    + OcQuirks.plist [from repository](https://github.com/KerKerOgh/MSI-Prestige-15-Hackintosh/blob/master/Clover/Configs/OcQuirks.plist)
 
 # ACPI Tables
 - [In repository](https://github.com/KerKerOgh/MSI-Prestige-15-Hackintosh/tree/master/ACPI/patched)
-
-# Required efi drivers
-- APFSDriverLoader
-- AudioDxe
-- DataHubDxe
-- FSInject
-- HFSPlus
-- OcQuirks **(included in Clover is broken! Need to download separately)** : https://github.com/ReddestDream/OcQuirks/releases
-  - OpenRuntime **(included in Clover is broken!)**
-  + OcQuirks.plist [from repository](https://github.com/KerKerOgh/MSI-Prestige-15-Hackintosh/blob/master/Configs/OcQuirks.plist)
 
 # Required kexts
 - Lilu : https://github.com/acidanthera/Lilu/releases
@@ -55,8 +68,11 @@
 - CPUFriend : https://github.com/acidanthera/CPUFriend/releases
   - CPUFriendDataProvider [from repository](https://github.com/KerKerOgh/MSI-Prestige-15-Hackintosh/tree/master/Kexts) 
 
-# Installation
-- Make bootable USB Drive with Clover \- https://github.com/CloverHackyColor/CloverBootloader/releases
+# Pre-Install
+- Make bootable USB Drive with 
+  - Clover v5122 \- https://github.com/CloverHackyColor/CloverBootloader/releases
+or
+  - OpenCore v0.6.2 \- https://github.com/acidanthera/OpenCorePkg/releases
 
 * Installation requires an internet connection, you have two options:
   * 1. Use usb WI-FI dongle OR usb ethernet adapter
@@ -67,6 +83,7 @@
   * Press L-ALT + R-CTRL + R-SHIFT + F2 or (fn + F2) for see hidden feature
   * Go to Advanced->Power & Performance->CPU - Power Management Control->CPU lock Configuration->CFG lock = **Disabled**
 
+# Installation
 - Install
 
 # Post-Install
