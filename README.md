@@ -74,7 +74,6 @@
     or
     - Clover v5122 \- https://github.com/CloverHackyColor/CloverBootloader/releases
   
-
 * Installation requires an internet connection, you have two options:
   * 1. Use usb WI-FI dongle OR usb ethernet adapter
   * 2. Fill your WI-FI SSID and password in itlwm.kext/Contents/Info.plist "WiFiConfig" section
@@ -94,7 +93,9 @@
   * sudo pmset powernap 0
   * sudo pmset proximitywake 0
 - Install HeliPort.app to work with internal Wi-Fi \- https://github.com/OpenIntelWireless/HeliPort/releases
-- Configure your SMBIOS \- https://www.tonymacx86.com/threads/guide-how-to-configure-your-systems-smbios-correctly.198155/
+- Configure your SMBIOS:
+    - OpenCore: -\ https://dortania.github.io/OpenCore-Install-Guide/config-laptop.plist/coffee-lake-plus.html#platforminfo
+    - Clover: \- https://www.tonymacx86.com/threads/guide-how-to-configure-your-systems-smbios-correctly.198155/
 
 # Working
 - CPU (800 MHz - 4.20 GHz | 35W | Speed Shift)
