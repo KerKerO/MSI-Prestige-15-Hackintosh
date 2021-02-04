@@ -49,7 +49,7 @@
 
 # Required kexts
 - Lilu : https://github.com/acidanthera/Lilu/releases
-- WhateverGreen : https://github.com/acidanthera/WhateverGreen/releases
+- WhateverGreen : https://github.com/acidanthera/WhateverGreen/releases (version 1.4.6 requires a boot argument *-igfxblr* to enable the display backlight after startup)
 - VirtualSMC : https://github.com/acidanthera/VirtualSMC/releases
   - SMCBatteryManager
   - SMCLightSensor
