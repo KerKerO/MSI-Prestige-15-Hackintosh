@@ -83,7 +83,7 @@
 - WI-FI (HeliPort)
 - Bluetooth
 - Keyboard (backlight, volume +/-/mute, brightness +/-)
-- Trackpad (gestures, prtscr - on/off)
+- Trackpad (gestures)
 - Audio (AppleALC layout=22 or 29)
   - Stereo microphones [**(Bug 1)**](#Bugs)
   - Audio speakers
