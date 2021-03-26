@@ -120,7 +120,7 @@
 
 # Bugs
 - Bug 1: Inverted channels
-- Bug 2: Green screen after start. Send your laptop to sleep mode and then pull it out, after that everything will work.
+- Bug 2: Fix https://github.com/KerKerOgh/MSI-Prestige-15-Hackintosh/issues/3 ~~Green screen after start. Send your laptop to sleep mode and then pull it out, after that everything will work.~~
 
 # Does not work
 - Card Reader Realtek RTS5250 PCI-E
