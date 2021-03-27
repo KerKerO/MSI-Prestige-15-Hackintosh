@@ -73,8 +73,7 @@
 - In Terminal
   - sudo pmset powernap 0
   - sudo pmset proximitywake 0
-  - sudo pmset -a standby 0
-  - sudo pmset powernap 0
+  - sudo pmset standby 0
 - Install HeliPort.app to work with internal Wi-Fi \- https://github.com/OpenIntelWireless/HeliPort/releases
 
 # Working
