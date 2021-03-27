@@ -18,7 +18,7 @@
 # Tested System Configuration
 - <img src="https://github.com/KerKerOgh/MSI-Prestige-15-Hackintosh/blob/master/Screenshot.png/" width=512>
 - OpenCore: v0.6.5
-- MacOS: BigSur 11.0.1 (20B29)
+- MacOS: BigSur 11.2.3 (20D91)
 - SMBIOS: MacBook Pro 16.3
 - Config: [In repository](https://github.com/KerKerOgh/MSI-Prestige-15-Hackintosh/blob/master/OpenCore/config.plist)
 
