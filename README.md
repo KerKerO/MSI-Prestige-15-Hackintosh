@@ -21,7 +21,6 @@
 - MacOS: BigSur 11.2.3 (20D91)
 - SMBIOS: MacBook Pro 16.3
 - Config OC v0.6.5: [In repository](https://github.com/KerKerOgh/MSI-Prestige-15-Hackintosh/blob/master/OpenCore/config.plist)
--
 - Config OC v0.6.7: [In repository](https://github.com/KerKerOgh/MSI-Prestige-15-Hackintosh/blob/master/OpenCore/config_067.plist)
   - Before upgrading from 0.6.5 to higher: [Read](https://dortania.github.io/OpenCore-Post-Install/multiboot/bootstrap.html#updating-bootstrap-in-0-6-6)
   - If use SAMSUNG SSD: Set Config.plist->Kernel->Quirks->SetApfsTrimTimeout = 4294967295
