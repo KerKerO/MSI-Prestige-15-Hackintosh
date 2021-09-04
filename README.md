@@ -18,7 +18,7 @@
 # Tested System Configuration
 - <img src="https://github.com/KerKerOgh/MSI-Prestige-15-Hackintosh/blob/master/Screenshot.png/" width=512>
 - OpenCore: v0.6.7
-- MacOS: BigSur 11.2.3 (20D91)
+- MacOS: BigSur 11.5.2 (20G95)
 - SMBIOS: MacBook Pro 16.3
 - Config OC v0.6.5: [In repository](https://github.com/KerKerOgh/MSI-Prestige-15-Hackintosh/blob/master/OpenCore/config.plist)
 - Config OC v0.6.7: [In repository](https://github.com/KerKerOgh/MSI-Prestige-15-Hackintosh/blob/master/OpenCore/config_067.plist)
@@ -77,6 +77,7 @@
   - sudo pmset powernap 0
   - sudo pmset proximitywake 0
   - sudo pmset standby 0
+  - sudo pmset tcpkeepalive 0
 - Install HeliPort.app to work with internal Wi-Fi \- https://github.com/OpenIntelWireless/HeliPort/releases
 
 # Working
@@ -102,6 +103,7 @@
 
 # Bugs
 - Bug 1: Inverted channels
+- Bug 2: When you reboot from Windows to MacOS, the sound amplifier will not turn on. Use shutdown not reboot.
 
 # Does not work
 - Card Reader Realtek RTS5250 PCI-E
