@@ -35,24 +35,24 @@
 - [In repository](https://github.com/KerKerOgh/MSI-Prestige-15-Hackintosh/tree/master/ACPI/patched)
 
 # Required kexts (tested)
-- Lilu : https://github.com/acidanthera/Lilu/releases (1.5.1)
-- WhateverGreen : https://github.com/acidanthera/WhateverGreen/releases (1.4.8)
-- VirtualSMC : https://github.com/acidanthera/VirtualSMC/releases (1.2.1)
+- Lilu : https://github.com/acidanthera/Lilu/releases (1.5.5)
+- WhateverGreen : https://github.com/acidanthera/WhateverGreen/releases (1.5.2)
+- VirtualSMC : https://github.com/acidanthera/VirtualSMC/releases (1.2.6)
   - SMCBatteryManager
   - SMCLightSensor
   - SMCProcessor
   - SMCSuperIO
-- AppleALC : https://github.com/acidanthera/AppleALC/releases (1.5.8)
-- NVMeFix : https://github.com/acidanthera/NVMeFix/releases (1.0.5)
+- AppleALC : https://github.com/acidanthera/AppleALC/releases (1.6.3)
+- NVMeFix : https://github.com/acidanthera/NVMeFix/releases (1.0.9)
 - NoTouchID : https://github.com/al3xtjames/NoTouchID/releases (1.0.3)
 - USBPorts.kext [from repository](https://github.com/KerKerOgh/MSI-Prestige-15-Hackintosh/tree/master/Kexts) (or USBInjectAll : https://bitbucket.org/RehabMan/os-x-usb-inject-all/downloads)
 - Voodool2C : https://github.com/VoodooI2C/VoodooI2C/releases (2.6.5)
   - Voodool2CHID
-- VoodooPS2Controller : https://github.com/acidanthera/VoodooPS2/releases (2.2.2)
-- itlwm : https://github.com/OpenIntelWireless/itlwm/releases (1.2.0)
-- IntelBluetoothFirmware : https://github.com/OpenIntelWireless/IntelBluetoothFirmware/releases (1.1.2)
+- VoodooPS2Controller : https://github.com/acidanthera/VoodooPS2/releases (2.2.4)
+- itlwm : https://github.com/OpenIntelWireless/itlwm/releases (2.0.0)
+- IntelBluetoothFirmware : https://github.com/OpenIntelWireless/IntelBluetoothFirmware/releases (2.0.0)
   - IntelBluetoothInjector
-- CPUFriend : https://github.com/acidanthera/CPUFriend/releases (1.2.3)
+- CPUFriend : https://github.com/acidanthera/CPUFriend/releases (1.2.4)
   - CPUFriendDataProvider [from repository](https://github.com/KerKerOgh/MSI-Prestige-15-Hackintosh/tree/master/Kexts)
 
 # Pre-Install
