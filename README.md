@@ -13,51 +13,48 @@
 |Audio     | Realtek ACL298|
 |Wireless  | Intel AX201|
 
-- Obsolete (Clover/OC): [click](https://github.com/KerKerOgh/MSI-Prestige-15-Hackintosh/blob/master/Old/README.md)
-
 # Tested System Configuration
 - <img src="https://github.com/KerKerOgh/MSI-Prestige-15-Hackintosh/blob/master/Screenshot.png/" width=512>
-- OpenCore: v0.6.7
-- MacOS: BigSur 11.5.2 (20G95)
+- OpenCore: v0.8.0
+- MacOS: Monterey 12.6.8
 - SMBIOS: MacBook Pro 16.3
-- Config OC v0.6.5: [In repository](https://github.com/KerKerOgh/MSI-Prestige-15-Hackintosh/blob/master/OpenCore/config.plist)
-- Config OC v0.6.7: [In repository](https://github.com/KerKerOgh/MSI-Prestige-15-Hackintosh/blob/master/OpenCore/config_067.plist)
-  - Before upgrading from 0.6.5 to higher: [Read](https://dortania.github.io/OpenCore-Post-Install/multiboot/bootstrap.html#updating-bootstrap-in-0-6-6)
+- Config: [In repository](/OpenCore/config.plist)
   - If use SAMSUNG SSD: Set Config.plist->Kernel->Quirks->SetApfsTrimTimeout = 4294967295
 
 - Required efi drivers
-  - HFSPlus (OC v0.6.5) / OpenHfsPlus (OC v0.6.7)
+  - OpenHfsPlus
   - OpenRuntime
   - OpenCanopy
   - AudioDxe
  
 # ACPI Tables
-- [In repository](https://github.com/KerKerOgh/MSI-Prestige-15-Hackintosh/tree/master/ACPI/patched)
+- [In repository](/ACPI/patched)
 
 # Required kexts (tested)
-- Lilu : https://github.com/acidanthera/Lilu/releases (1.5.5)
-- WhateverGreen : https://github.com/acidanthera/WhateverGreen/releases (1.5.2)
-- VirtualSMC : https://github.com/acidanthera/VirtualSMC/releases (1.2.6)
+- Lilu : https://github.com/acidanthera/Lilu/releases (1.5.7)
+- WhateverGreen : https://github.com/acidanthera/WhateverGreen/releases (1.5.5)
+- VirtualSMC : https://github.com/acidanthera/VirtualSMC/releases (1.2.7)
   - SMCBatteryManager
   - SMCLightSensor
   - SMCProcessor
   - SMCSuperIO
-- AppleALC : https://github.com/acidanthera/AppleALC/releases (1.6.3)
+- AppleALC : https://github.com/acidanthera/AppleALC/releases (1.6.6)
 - NVMeFix : https://github.com/acidanthera/NVMeFix/releases (1.0.9)
 - NoTouchID : https://github.com/al3xtjames/NoTouchID/releases (1.0.3)
-- USBPorts.kext [from repository](https://github.com/KerKerOgh/MSI-Prestige-15-Hackintosh/tree/master/Kexts) (or USBInjectAll : https://bitbucket.org/RehabMan/os-x-usb-inject-all/downloads)
+- USBPorts.kext [from repository](/Kexts)
 - Voodool2C : https://github.com/VoodooI2C/VoodooI2C/releases (2.6.5)
   - Voodool2CHID
-- VoodooPS2Controller : https://github.com/acidanthera/VoodooPS2/releases (2.2.4)
-- itlwm : https://github.com/OpenIntelWireless/itlwm/releases (2.0.0)
-- IntelBluetoothFirmware : https://github.com/OpenIntelWireless/IntelBluetoothFirmware/releases (2.0.0)
+- VoodooPS2Controller : https://github.com/acidanthera/VoodooPS2/releases (2.2.7)
+- itlwm : https://github.com/OpenIntelWireless/itlwm/releases (2.1.0)
+- IntelBluetoothFirmware : https://github.com/OpenIntelWireless/IntelBluetoothFirmware/releases (2.1.0)
   - IntelBluetoothInjector
 - CPUFriend : https://github.com/acidanthera/CPUFriend/releases (1.2.4)
-  - CPUFriendDataProvider [from repository](https://github.com/KerKerOgh/MSI-Prestige-15-Hackintosh/tree/master/Kexts)
+  - CPUFriendDataProvider [from repository](/Kexts)
 
 # Pre-Install
-- Make bootable USB Drive with 
-  - OpenCore \- https://github.com/acidanthera/OpenCorePkg/releases
+- Make bootable USB Drive with OpenCore
+  - OpenCore - https://github.com/acidanthera/OpenCorePkg/releases
+  - OpenCore Resources - https://github.com/acidanthera/OcBinaryData
   
 - Installation requires an internet connection, you have two options:
   - 1. Use usb WI-FI dongle OR usb ethernet adapter
