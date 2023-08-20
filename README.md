@@ -31,24 +31,24 @@
 - [In repository](/ACPI/patched)
 
 # Required kexts (tested)
-- Lilu : https://github.com/acidanthera/Lilu/releases (1.5.7)
-- WhateverGreen : https://github.com/acidanthera/WhateverGreen/releases (1.5.5)
-- VirtualSMC : https://github.com/acidanthera/VirtualSMC/releases (1.2.7)
+- Lilu : https://github.com/acidanthera/Lilu/releases (1.8.4)
+- WhateverGreen : https://github.com/acidanthera/WhateverGreen/releases (1.6.6)
+- VirtualSMC : https://github.com/acidanthera/VirtualSMC/releases (1.3.2)
   - SMCBatteryManager
   - SMCLightSensor
   - SMCProcessor
   - SMCSuperIO
-- AppleALC : https://github.com/acidanthera/AppleALC/releases (1.6.6)
-- NVMeFix : https://github.com/acidanthera/NVMeFix/releases (1.0.9)
+- AppleALC : https://github.com/acidanthera/AppleALC/releases (1.8.4)
+- NVMeFix : https://github.com/acidanthera/NVMeFix/releases (1.1.1)
 - NoTouchID : https://github.com/al3xtjames/NoTouchID/releases (1.0.3)
 - USBPorts.kext [from repository](/Kexts)
-- Voodool2C : https://github.com/VoodooI2C/VoodooI2C/releases (2.6.5)
+- Voodool2C : https://github.com/VoodooI2C/VoodooI2C/releases (2.8)
   - Voodool2CHID
-- VoodooPS2Controller : https://github.com/acidanthera/VoodooPS2/releases (2.2.7)
-- itlwm : https://github.com/OpenIntelWireless/itlwm/releases (2.1.0)
-- IntelBluetoothFirmware : https://github.com/OpenIntelWireless/IntelBluetoothFirmware/releases (2.1.0)
-- BlueToolFixup.kext : https://github.com/acidanthera/BrcmPatchRAM/releases
-- CPUFriend : https://github.com/acidanthera/CPUFriend/releases (1.2.4)
+- VoodooPS2Controller : https://github.com/acidanthera/VoodooPS2/releases (2.3.5)
+- itlwm : https://github.com/OpenIntelWireless/itlwm/releases (2.2.0)
+- IntelBluetoothFirmware : https://github.com/OpenIntelWireless/IntelBluetoothFirmware/releases (2.3.0)
+- BlueToolFixup.kext : https://github.com/acidanthera/BrcmPatchRAM/releases (2.6.8)
+- CPUFriend : https://github.com/acidanthera/CPUFriend/releases (1.2.7)
   - CPUFriendDataProvider [from repository](/Kexts)
 
 # Pre-Install
