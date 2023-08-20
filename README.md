@@ -52,7 +52,7 @@
   - CPUFriendDataProvider [from repository](/Kexts)
 
 # Pre-Install
-- Make bootable USB Drive with OpenCore
+- Make bootable USB Drive with OpenCore and Mac OS Monterey
   - OpenCore - https://github.com/acidanthera/OpenCorePkg/releases
   - OpenCore Resources - https://github.com/acidanthera/OcBinaryData
   
