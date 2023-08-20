@@ -47,7 +47,7 @@
 - VoodooPS2Controller : https://github.com/acidanthera/VoodooPS2/releases (2.2.7)
 - itlwm : https://github.com/OpenIntelWireless/itlwm/releases (2.1.0)
 - IntelBluetoothFirmware : https://github.com/OpenIntelWireless/IntelBluetoothFirmware/releases (2.1.0)
-  - IntelBluetoothInjector
+- BlueToolFixup.kext : https://github.com/acidanthera/BrcmPatchRAM/releases
 - CPUFriend : https://github.com/acidanthera/CPUFriend/releases (1.2.4)
   - CPUFriendDataProvider [from repository](/Kexts)
 
