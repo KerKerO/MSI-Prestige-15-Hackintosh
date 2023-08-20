@@ -1,4 +1,4 @@
-Download BDU - [site](https://cvad-mac.narod.ru/index/bootdiskutility_exe/0-5) [in repository](/BootableUSB/)
+Download BDU - [site](https://cvad-mac.narod.ru/index/bootdiskutility_exe/0-5) /or/ [in repository](/BootableUSB/)
 
 1. Open BDU
 
